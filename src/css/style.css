@@ -4,3 +4,12 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Manrope', sans-serif;
 } */
+
+body {
+    background-color: var(--cor-fundo);
+    
+}
+
+.cartao {
+    background-color: var(--cor-cartao);
+}
