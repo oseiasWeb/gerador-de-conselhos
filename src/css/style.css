@@ -24,10 +24,31 @@ body {
 }
 
 .cartao .id-conselho {
-    color: var(--cor-texto);
+    color: var(--cor-titulo-conselho);
     text-transform: uppercase;
     letter-spacing: 8px;
     font-size: 15px;
     margin-top: 35px;
 }
 
+.cartao .descricao-conselho {
+    font-size: 25px;
+    padding: 23px;
+    text-align: center;
+    color: var(--cor-texto);
+}
+
+.cartao .atualizar-conselho {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-titulo-conselho);
+    transform: translateY(40%);
+}
+
+.cartao .atualizar-conselho:hover {
+    color: #53ffab;
+    cursor: pointer;
+    box-shadow: 0 1px 15px var(--cor-titulo-conselho);
+}
