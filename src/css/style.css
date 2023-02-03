@@ -20,7 +20,7 @@ body {
     background-color: var(--cor-cartao);
     border-radius: 12px;
     margin: 20px;
-    width: 450px;
+    width: 500px;
 }
 
 .cartao .id-conselho {

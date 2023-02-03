@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .cartao {
+        padding-inline: 50px;
+        width: 386px;
+    }
+
+    .cartao .id-conselho {
+        font-size: 12px;
+    }
+
+    .cartao .descricao-conselho {
+        font-size: 20px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .cartao {
+        padding-inline: 45px;
+        width: 250px;
+    }
+
+    
+    .cartao .id-conselho {
+        font-size: 8px;
+    }
+
+    .cartao .descricao-conselho {
+        font-size: 16px;
+        padding: 19px;
+    }
+}
