@@ -1,15 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&display=swap');
 
-/* body {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-family: 'Manrope', sans-serif;
-} */
-
 body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
     background-color: var(--cor-fundo);
-    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--cor-cartao);
+    border-radius: 12px;
+    margin: 20px;
+    width: 450px;
 }
+
+.cartao .id-conselho {
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
